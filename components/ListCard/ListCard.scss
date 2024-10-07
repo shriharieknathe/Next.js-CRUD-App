@@ -1,0 +1,69 @@
+.list_wrapper {
+  width: 100%;
+  height: fit-content;
+  max-height: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 12px;
+
+  .info_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .info_section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      .info {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: left;
+        color: linear-gradient(0deg, #c2c9d1, #c2c9d1),
+          linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+      }
+    }
+    .button_section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      cursor: pointer;
+    }
+  }
+  .chip_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      color: linear-gradient(0deg, #c2c9d1, #c2c9d1),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    }
+    .chip {
+      height: 32px;
+      padding: 8px 11px 8px 11px;
+      gap: 10px;
+      border-radius: 5px;
+      background-color: #F1F1F1;
+    }
+  }
+  .status_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    .circle {
+      height: 16px;
+      width: 16px;
+      border-radius: 50%;
+      background-color: green;
+    }
+  }
+}
